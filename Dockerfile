@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-RUN ln -sf /usr/share/zoneinfo/Asia/Taipei /etc/localtime
+RUN ln -sf /usr/share/zoneinfo/America/Recife /etc/localtime
 
 RUN DEBIANFRONTEND=noninteractive apt-get -qq update
 
